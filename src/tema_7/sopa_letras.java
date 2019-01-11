@@ -43,12 +43,11 @@ public class sopa_letras {
 	
 	for( a=0;a<15;a++) {
 		for( b=0;b<15;b++) {
-		matriz[a][b]= (char)(Math.random()*26 +'a'); 
+		//matriz[a][b]= (char)(Math.random()*26 +'a'); 
+		matriz[a][b]= (char)' ';
 		System.out.print(" "+matriz[a][b]+"|");
 	}
 		System.out.println();
-}
-	
 
 }
 }
